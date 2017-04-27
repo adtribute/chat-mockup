@@ -1,0 +1,52 @@
+/**
+  Colors
+
+  Green: #539a12
+  Blue: #1c8dfb
+  Chat Panel Grey: #ebeff4
+  Search Panel Charcoal: #252a31
+  Icon Text Grey: #81858b
+
+  1. Mock layout
+  2. Mock details
+  3. Mock interactions
+  4. What would you change?
+**/
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  position: relative;
+  font-size: 14px;
+  background-color: #ebeff4;
+}
+
+.sidebar {
+  padding: 1.5em;
+  background-color: #1e232a;
+  color: #818487;
+  max-width: 12%;
+  height: 100%;
+}
+
+.sidebar h1 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #FAFAFA;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 0.5em 1em;
+}
+
+.sidebar .active {
+  border-radius: 5px;
+  background-color: #353d45;
+  color: #FAFAFA;
+}
