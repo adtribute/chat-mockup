@@ -1,18 +1,3 @@
-/**
-  Colors
-
-  Green: #539a12
-  Blue: #1c8dfb
-  Chat Panel Grey: #ebeff4
-  Search Panel Charcoal: #252a31
-  Icon Text Grey: #81858b
-
-  1. Mock layout
-  2. Mock details
-  3. Mock interactions
-  4. What would you change?
-**/
-
 html, body {
   font-family: 'Open Sans', sans-serif;
   min-height: 100vh;
@@ -49,4 +34,12 @@ html, body {
   border-radius: 5px;
   background-color: #353d45;
   color: #FAFAFA;
+}
+
+.search-panel {
+  background-color: #252a31;
+}
+
+.chat-panel {
+  background-color: #ebeff4;
 }
