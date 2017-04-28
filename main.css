@@ -5,14 +5,18 @@ html, body {
   position: relative;
   font-size: 14px;
   background-color: #ebeff4;
+  display: flex;
+  width: 100%;
 }
+
+/** Side Bar **/
 
 .sidebar {
   padding: 1.5em;
   background-color: #1e232a;
   color: #818487;
-  max-width: 12%;
   height: 100%;
+  width: 12%;
 }
 
 .sidebar h1 {
@@ -36,10 +40,66 @@ html, body {
   color: #FAFAFA;
 }
 
+
+
+
+
+/** Search Panel **/
+
 .search-panel {
   background-color: #252a31;
+  width: 22%;
+  padding: 2em;
 }
+
+.search-bar {
+
+  // TODO:
+
+}
+
+.conversations-list {
+  list-style: none;
+  padding: 0;
+}
+
+.conversation {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2.5em;
+}
+
+.author-icon {
+  color: #FFF;
+  margin-right: 1em;
+}
+
+.author-name {
+  color: #FFF;
+  font-size: 1.1em;
+  display: block;
+}
+
+.conversation-preview {
+  margin: auto 0;
+}
+
+.preview-text {
+  color: #999;
+}
+
+
+
+
+
+/** Other Panels **/
 
 .chat-panel {
   background-color: #ebeff4;
+  flex-grow: 1;
+}
+
+.profile-panel {
+  background-color: #FFF;
+  width: 20%;
 }
